@@ -28,6 +28,3 @@ function generarClave($nombre, $fecha) {
     $mesDia = obtenerMesDia($fecha);
     return $iniciales . $anio . $mesDia;
 }
-$nombre = "Carlos Alberto Pérez";
-$fechaNacimiento = "2008-05-23";
-echo "Clave generada: " . generarClave($nombre, $fechaNacimiento); // Salida: CAR080523
